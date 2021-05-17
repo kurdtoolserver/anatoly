@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,8 +37,33 @@
 </head>
 <body>
 
+<style type="text/css">
+@-webkit-keyframes roll {
+  from { -webkit-transform: rotate(0deg) }
+  to { -webkit-transform: rotate(360deg) }
+}
+@-moz-keyframes roll {
+  from { -moz-transform: rotate(0deg) }
+  to { -moz-transform: rotate(360deg) }
+}
+@keyframes roll {
+  from { transform: rotate(0deg) }
+  to   { transform: rotate(360deg) }
+}
+h1 {
+  -moz-animation-name: roll;
+  -moz-animation-duration: 3s;
+  -moz-animation-iteration-count: 1;
+  -webkit-animation-name: roll;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+  
 
-<h1 style="color:white;">Anatoly Programmer 601</h1>
+}
+</style>
+
+
+<h1 style="color:white;">Anatoly Programmer </h1>
 
 <img src="https://l.top4top.io/p_19639a3jz0.jpg" alt="Italian Trullti" style="width:100%">
 
